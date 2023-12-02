@@ -1,0 +1,24 @@
+body {
+    background-color: #71B7DD;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: transparent;
+    border: 10px solid white;
+    color: #C4FFC4;
+    font-size: 180px;
+    font-weight: bold;
+    padding: 10px 80px;
+    position: absolute;
+}
+h1 {
+    margin-bottom: 800px;
+    font-weight: bold;
+    font-size: 50px;
+}

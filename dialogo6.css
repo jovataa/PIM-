@@ -1,0 +1,97 @@
+body {
+    background-image: url('Imagens/dialogo6.png');
+    background-size: cover;
+}
+
+  
+.caixa {
+    width: 1200px; 
+    height: 330px;
+    bottom: 10px;
+    left: 600px;
+    display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    background: #C4FFC4; 
+    border-radius: 33px
+}
+
+.texto {
+    width: 86%; 
+    height: 50%; 
+    left: 50px; 
+    top: 15%; 
+    position: absolute; 
+    text-align: left; 
+    color: #373737; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px; 
+    font-weight: bold;
+
+}
+
+
+.elipse {
+    width: 180px;
+    height: 180px;
+    bottom: 35px;
+    left: 1050px;
+    border-radius: 100%;
+    position: relative;
+    background-color: #98ce98;
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+    bottom: 185px;
+    left: 1050px;
+    display: inline-block;
+    position: absolute;
+}
+
+.interprete {
+    width: 450px; 
+    height: 450px;
+    bottom: 10px;
+    left: 10px;
+    display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    background: #373737; 
+}
+
+
+.btn1 {
+    width: 330px; 
+    height: 100px; 
+    left: 780px; 
+    bottom: 40px; 
+    position: fixed; 
+    background: white; 
+    border-radius: 26px; 
+    border: 3px #FF7D7D solid;
+    text-align: center; 
+    color: #373737; 
+    font-size: 23px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.btn2 {
+    width: 330px; 
+    height: 100px; 
+    left: 1195px; 
+    bottom: 40px; 
+    position: fixed; 
+    background: white; 
+    border-radius: 26px; 
+    border: 3px #FF7D7D solid;
+    text-align: center; 
+    color: #373737; 
+    font-size: 23px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}

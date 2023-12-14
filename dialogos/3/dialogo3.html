@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dialogo3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  
+    <title>Get Up!</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    
+    <div class="caixa">
+      <div class="elipse"></div>
+      
+      <img src="../../Imagens/Menina.png" alt="menina" class="img">
+
+        <div class="texto">Seu irmão faz aula de Judô uma vez na semana e você tem que acompanhá-lo nesse período, 
+          o treinador lhe oferece uma vaga para treinar junto uma vez na semana, mas você também tem a opção de esperar na sala de espera com internet, você:
+
+        </div>
+        <div class="caixa-btn">
+        <button onclick="escolha(2,'certa')" class="btn1">Começa a treinar judô com seu irmão uma vez na semana</button>
+        <button onclick="escolha(2,'errada')" class="btn2">Aproveita esse período na sala de espera enquanto assiste um filme no celular</button>
+      </div>
+
+      </div>
+    <script>
+      function escolha(questao, escolha){
+        const questoes = JSON.parse(window.localStorage.getItem('questoes')) 
+          if(escolha=='certa') {
+              questoes.exFisico.pontos += 1
+              questoes.exFisico.questoes.push([questao, escolha])
+              window.localStorage.setItem('questoes', JSON.stringify(questoes))
+
+              location.href = '/dialogos/4/dialogo4.html'
+              return
+          } else {
+              questoes.exFisico.pontos += 0
+              questoes.exFisico.questoes.push([questao, escolha])
+              window.localStorage.setItem('questoes', JSON.stringify(questoes))
+
+              location.href = '/dialogos/4/dialogo4.html'
+              return
+          }
+      }
+
+
+  </script>
+      </body>
+</html>
+

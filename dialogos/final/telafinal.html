@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telafinal.css">
+
+    <title>Get Up!</title>
+    <script>
+        window.onload = () => {
+
+            const questoes = JSON.parse(window.localStorage.getItem('questoes'))
+            const atvFisica = document.getElementById('atvFisica')
+            const exFisico = document.getElementById('exFisico')
+            const sedentarismo = document.getElementById('sedentarismo')
+
+            atvFisica.innerHTML = `Atividade Física: ${questoes.atvFisica.pontos} pontos`
+            exFisico.innerHTML = `Exercício Físico: ${questoes.exFisico.pontos} pontos`
+            sedentarismo.innerHTML = `Comportamento Sedentário: ${questoes.sedentarismo.pontos} pontos`
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Você chegou ao fim!</h1>
+    </div>
+    <div class="caixa">
+        <div class="elipse">
+            <img src="../../Imagens/Menina.png" alt="menina" class="img">
+        </div>
+        <div class="escolhas">
+
+
+            <div class="escolhas1">
+                <div class="fundoescolhas1">
+                    <div id="atvFisica"></div>
+                </div>
+
+                <a href="/sobre/atividade-fisica/atividadefisica.html"><button class="escolhas1"> Saiba quais foram suas
+                        escolhas!</button></a>
+
+            </div>
+            <div class="escolhas2">
+
+                <div class="fundoescolhas2">
+                    <div id="exFisico"></div>
+                </div>
+
+                <a href="/sobre/exer-fisico/exerciciofisico.html"> <button class="escolhas2"> Saiba quais foram suas
+                        escolhas!
+                    </button> </a>
+
+            </div>
+            <div class="escolhas3">
+
+                <div class="fundoescolhas3">
+                    <div id="sedentarismo"></div>
+
+                </div>
+                <a href="/sobre/comportamento-sedentario/comportamentosedentario.html"> <button class="escolhas3"> Saiba
+                        quais
+                        foram suas escolhas! </button> </a>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="rodape">
+
+        <p class="texto">É importante que você faça boas decisões nas 3 áreas, e mantenha-as equilibradas, saiba mais
+            sobre cada:</p>
+        <div class="links">
+
+            <a href="/sobre/oque-e-atv-fisica/oqueeatvfisica.html"> <button class="atvfisica"> O que é Atividade Física?
+                </button> </a>
+            <a href="/sobre/oque-e-ex-fisico/oqueeexfisico.html"> <button class="exfisico"> O que é Exercício Físico?
+                </button> </a>
+            <a href="/sobre/oque-e-comp-sedentario/oqueecomportamentosedentario.html"> <button class="compsedentario"> O que
+                    é Comportamento Sedentário? </button></a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

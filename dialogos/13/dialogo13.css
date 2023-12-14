@@ -1,0 +1,108 @@
+body {
+    background-image: url('../../Imagens/dialogo13.png');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+}
+
+  
+.caixa {
+    width: 100%; 
+    height: 330px;
+    position: relative;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap:40px;
+    align-items: center;
+    background: rgb(196, 255, 196, 0.9);
+    border-radius: 33px;
+
+    
+}
+
+.texto {
+    display: flex;
+    text-align: left; 
+    color: #1a1919; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px; 
+    font-weight: bold;
+z-index:3;
+
+}
+
+.elipse {
+    width: 180px;
+    height: 180px;
+    top: -90px;
+    right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #98ce98;
+    z-index: 1;
+
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+    top: -90px;
+    right: 10px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+.caixa-btn {
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: end;
+    align-items: end;
+    padding-right: 40px;
+}
+.btn1 {
+    width: 450px; 
+    height: 80px; 
+    background: white; 
+    border-radius: 26px; 
+    border: 3px rgb(196, 255, 196) solid;
+    text-align: center; 
+    color: #2e2e2e; 
+    font-size: 23px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.btn2 {
+    width: 373px; 
+    height: 80px; 
+    background: white; 
+    border-radius: 26px; 
+    border: 3px rgb(196, 255, 196) solid;
+    text-align: center; 
+    color: #2e2e2e; 
+    font-size: 23px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.btn1:hover {
+    background: rgb(196, 255, 196);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    background: rgb(196, 255, 196);
+    color: white;
+    transition: 0.5s;
+}

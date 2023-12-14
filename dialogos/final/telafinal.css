@@ -1,0 +1,181 @@
+body {
+    background-color:E0E0E0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+
+    color:#71B7DD;
+}
+
+.caixa {
+ display: grid;
+ box-sizing: border-box;
+ padding: 40px 80px;
+ align-items: end;
+ grid-template-columns: 300px 1fr;
+}
+.escolhas {
+    box-sizing: border-box;
+    display:grid;
+    width: 500px;
+    justify-content: end;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+
+}
+
+.escolhas1 {
+    display: flex;
+    
+}
+.escolhas2 {
+    display: flex;
+}
+
+.escolhas3 {
+    display: flex;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.elipse {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #A4B8A4;
+}
+
+.texto {
+    color: #1F1F1F;
+    font-size: 20px;
+}
+
+.escolhas1 {
+    width: 270px;
+    height: 70px;
+    gap:30px;
+    background-color: #FF7D7D;
+    border-radius: 16px;
+    color: #0a0a0a;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 400;
+    padding-top: 10px;
+
+} 
+
+.escolhas2 {
+    width: 270px;
+    height: 70px;
+    gap:30px;
+    background-color: #71B7DD;
+    border-radius: 16px;
+    color: #0a0a0a;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 400;
+    outline: none;
+    text-decoration: none;
+   padding-top: 10px;
+}
+
+.escolhas3 {
+    width: 270px;
+    height: 70px;
+    gap:30px;
+    background-color: #A1D0A1;
+    border-radius: 16px;
+    color: #0a0a0a;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 400;
+    outline: none;
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+
+.fundoescolhas1 {
+    min-width: 300px;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+    background-color:#FDBDBD;
+}
+
+.fundoescolhas2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    height: 70px;
+    border-radius: 16px;
+    background-color:#B6DEF3;
+}
+
+.fundoescolhas3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    height: 70px;
+    border-radius: 16px;
+    background-color:#C5EFC5;
+}
+
+.atvfisica {
+    width: 365px;
+    height: 70px;
+    border-radius: 16px;
+    background-color: #FF7D7D;
+    border: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.exfisico {
+    width: 365px;
+    height: 70px;
+    border-radius: 16px;
+    background-color: #71B7DD;
+    border: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.rodape {
+display: flex;
+width: 100%;
+box-sizing: border-box;
+
+
+flex-direction: column;
+min-height: 400px;
+}
+
+.links {
+display: flex;
+gap:16px;
+justify-content: center;
+}
+
+.compsedentario {
+    width: 365px;
+    height: 70px;
+    border-radius: 16px;
+    background-color: #A1D0A1;
+    border: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
